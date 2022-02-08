@@ -1,5 +1,5 @@
-weight = input("Please enter your weight in kilo:\n").format(int)
-height = input("Please enter your height in centimeters:\n").format(int)
+weight = input("Please enter your weight in kilo:\n")
+height = input("Please enter your height in centimeters:\n")
 weight_1 = int(weight)*10000
 height_1 = int(height)
 BMI = weight_1 / (height_1 * height_1)
