@@ -9,8 +9,8 @@ upper_bound = 25
 print(f"My Body mass index = {BMI}")
 
 if BMI < lower_bound:
-    print("Your BMI is normal: False")
-if BMI > upper_bound:
-    print("Your BMI is normal: False")
+    print("Your BMI is less than normal")
+elif BMI > upper_bound:
+    print("Your BMI is greater than normal")
 else:
-    print("Your BMI is normal: True")
+    print("Your BMI is normal")
