@@ -15,4 +15,3 @@ if phone_number[0:3] == Ukraine_phone_code:
     print("Numer is valid")
 else:
     raise SystemExit("Number is invalid")
-
