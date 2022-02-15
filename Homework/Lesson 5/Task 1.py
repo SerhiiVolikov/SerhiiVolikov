@@ -1,4 +1,3 @@
-
 import random
 
 numbers = (sorted(random.sample(range(100), 10)))
