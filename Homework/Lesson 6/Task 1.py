@@ -4,5 +4,5 @@ words = []
 words = string.split()
 frequency = [words.count(i) for i in words]
 
-myDict = dict(zip(words, frequency))
-print("Dictionary Items  :  ",  myDict)
+dict_1 = dict(zip(words, frequency))
+print("Dictionary Items  :  ",  dict_1)
