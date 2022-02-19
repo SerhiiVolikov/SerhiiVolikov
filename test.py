@@ -1,5 +1,11 @@
-matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-for row in range(len(matrix)):
-    for column in range(len(matrix[0])):
-        print(matrix[row][column], end=' ')
-    print()
+# Перемножить все не чётные значения в диапазоне от 0 до 9435
+even = 0
+a = 9436
+while a > 0:
+    if a % 2 == 0:
+        even += 1
+        print(even)
+    if a % 2 != 0:
+        break
+
+

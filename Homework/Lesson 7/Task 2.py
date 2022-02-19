@@ -17,6 +17,6 @@ def check(string):
     return not stack
 
 
-str_1 = input()
+str_1 = input("Print: ")
 
 print(check(str_1))
